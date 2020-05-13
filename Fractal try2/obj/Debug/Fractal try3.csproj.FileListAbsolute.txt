@@ -1,0 +1,10 @@
+C:\Users\alphasamirpur\Documents\SharpDevelop Projects\fgfd\Fractal try2\obj\Debug\Window1.baml
+C:\Users\alphasamirpur\Documents\SharpDevelop Projects\fgfd\Fractal try2\obj\Debug\Window1.g.cs
+C:\Users\alphasamirpur\Documents\SharpDevelop Projects\fgfd\Fractal try2\obj\Debug\App.g.cs
+C:\Users\alphasamirpur\Documents\SharpDevelop Projects\fgfd\Fractal try2\obj\Debug\Fractal try3_MarkupCompile.cache
+C:\Users\alphasamirpur\Documents\SharpDevelop Projects\fgfd\Fractal try2\obj\Debug\Fractal try3.g.resources
+C:\Users\alphasamirpur\Documents\SharpDevelop Projects\fgfd\Fractal try2\bin\Debug\Fractal try3.exe
+C:\Users\alphasamirpur\Documents\SharpDevelop Projects\fgfd\Fractal try2\bin\Debug\Fractal try3.pdb
+C:\Users\alphasamirpur\Documents\SharpDevelop Projects\fgfd\Fractal try2\obj\Debug\Fractal try3.exe
+C:\Users\alphasamirpur\Documents\SharpDevelop Projects\fgfd\Fractal try2\obj\Debug\Fractal try3.pdb
+C:\Users\alphasamirpur\Documents\SharpDevelop Projects\fgfd\Fractal try2\obj\Debug\Fractal try3.csprojResolveAssemblyReference.cache

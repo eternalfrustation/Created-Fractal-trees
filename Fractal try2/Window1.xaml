@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window
+	x:Class="Fractal_try2.Window1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	Title="Fractal_try2"
+	Height="500"
+	Width="900">
+	<Grid>
+		<Border>
+			<Canvas
+				HorizontalAlignment="Stretch"
+				VerticalAlignment="Stretch"
+				x:Name="canvas"
+				Grid.Column="0"
+				Grid.Row="0"
+				Margin="0,0,0,70"
+				Background="#FF000000"></Canvas>
+		</Border>
+		<Button
+			Content="Button"
+			Grid.Column="0"
+			Grid.Row="0"
+			HorizontalAlignment="Right"
+			VerticalAlignment="Bottom"
+			Margin="0,0,3,4"
+			Width="250"
+			Height="61"
+			x:Name="button"
+			Click="click" />
+		<Slider
+			x:Name="slider"
+			ValueChanged="click"
+			SmallChange="0.2"
+			Maximum="180"
+			Minimum="0"
+			LargeChange="1"
+			Grid.Column="0"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Bottom"
+			Margin="11,0,0,38"
+			Width="279"
+			Height="22"
+			Value="0" />
+		<TextBox
+			x:Name="textbox"
+			Grid.Column="0"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Bottom"
+			Margin="298,0,0,28"
+			Width="172"
+			Height="27" />
+		<Label
+			Grid.Column="0"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Bottom"
+			Margin="391,0,0,20"
+			Width="122"
+			Height="35" />
+	</Grid>
+</Window>

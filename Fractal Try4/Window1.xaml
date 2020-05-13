@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window
+	x:Class="Fractal_Try4.Window1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	Title="Fractal_Try4"
+	Height="500"
+	Width="900"
+	x:Name="window"
+	Background="#FF000000">
+	<Grid
+		x:Name="grid2">
+		<Canvas
+			x:Name="grid"
+			RenderTransformOrigin="-1,-1"
+			HorizontalAlignment="Center"
+			VerticalAlignment="Center"
+			MaxHeight="1000000"
+			MaxWidth="1000000"
+			Width="891"
+			Background="#FF000000"
+			Height="470">
+			<TextBox
+				Canvas.Left="0"
+				Height="32"
+				Canvas.Top="62"
+				Width="138"
+				x:Name="staticangle" />
+		</Canvas>
+		<TextBox
+			Canvas.Left="749"
+			Canvas.Top="0"
+			x:Name="reso"
+			Grid.Column="0"
+			Grid.Row="0"
+			VerticalAlignment="Top"
+			Margin="0,38,748,0"
+			Width="142"
+			Height="23"
+			HorizontalAlignment="Left" />
+		<TextBox
+			x:Name="box"
+			Canvas.Top="10"
+			Canvas.Left="10"
+			Grid.Column="0"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			Margin="0,0,0,431"
+			Width="158"
+			Height="17"
+			LostFocus="CommandBinding_Executed"
+			VerticalAlignment="Top" />
+		<Slider
+			x:Name="slider"
+			SmallChange="0.1"
+			LargeChange="0.1"
+			ValueChanged="doit"
+			Canvas.Left="0"
+			Canvas.Top="0"
+			Grid.Column="0"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Top"
+			Margin="-7,17,0,0"
+			Width="165"
+			Height="21"
+			Maximum="0"
+			Minimum="-360" />
+	</Grid>
+	<Window.BorderBrush>
+		<LinearGradientBrush
+			EndPoint="1,0">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop
+					Color="#FF050101"
+					Offset="0.0026809651474530832" />
+				<GradientStop
+					Color="#FFFFFFFF"
+					Offset="1" />
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+	</Window.BorderBrush>
+</Window>
